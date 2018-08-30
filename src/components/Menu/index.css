@@ -1,0 +1,52 @@
+.menu {
+    padding-top: 60px;
+    background: #c1b7e5;
+    min-width: 270px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu__title {
+    width: 80%;
+    background-color: #897fdb;
+    border-radius: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.menu-list {
+    width: 80%;
+    padding: 0;
+}
+
+.menu-list__item {
+    list-style-type: none;
+}
+
+.menu-list__item button{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #897fdb;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.menu-list__item button:hover {
+    background-color: #6f66b7;
+}
+
+.menu-list__price {
+    min-width: 60px;
+    margin-left: 5px;
+    align-self: end;
+}

@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #261d47;
+}
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    display: flex;
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}

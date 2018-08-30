@@ -1,0 +1,144 @@
+.order {
+    padding-top: 100px;
+    min-width: 750px;
+    flex: 3;
+    background: #e2dbfc;
+    display: flex;
+    justify-content: center;
+}
+
+.holiday-title {
+    font-size: 50px;
+}
+
+.form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.form-block {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #c1b7e5;
+}
+
+.form__title {
+    margin: 0;
+}
+
+.form__select {
+    margin-left: 20px;
+    padding: 0 20px;
+    flex: 1;
+
+    background-color: #e2dbfc;
+    border: 1px solid #261d47;
+    border-radius: 20px;
+    appearance: none;
+}
+
+.form-list {
+    width: 90%;
+    padding: 0;
+}
+
+.form-list__item {
+    padding: 5px 20px;
+
+    background-color: #c1b7e5;
+    border: 1px solid #261d47;
+    border-radius: 20px;
+    list-style-type: none;
+}
+
+.form-list__item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.order-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.order-input_right {
+    display: flex;
+    width: 150px;
+}
+
+.order-input__count {
+    width: 50px;
+    margin-right: 10px;
+
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.order-input__cancel {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.form__button {
+    padding: 13px 20px 10px 23px;
+    align-self: end;
+
+    background-color: #897fdb;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+
+    box-shadow: 3px 3px rgba(0, 0, 0, .5) inset;
+}
+
+.form__button:hover {
+    background-color: #6f66b7;
+    border: none;
+}
+
+.form__button:active {
+    box-shadow: none;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.order-input__cancel {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.order-input__cancel:hover {
+    opacity: 0.7;
+}
+
+.order-input__cancel:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+    transform: rotate(-45deg);
+}
+
+.order-input__cancel:before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background-color: #333;
+    transform: rotate(45deg);
+}
